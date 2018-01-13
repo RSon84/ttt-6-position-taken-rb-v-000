@@ -1,5 +1,5 @@
 def position_taken?(board, index)
-  if board(index, input) != ("X" || "Y")
+  if board(index, position_taken) != ("X" || "Y")
     return false
   else board == ("X" || "Y")
     return true
