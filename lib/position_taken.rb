@@ -1,9 +1,9 @@
 
 
 def position_taken?(board, index)
-  if board[index] != ("X" || "Y")
+  if board[index] != ("X" || "O")
     return false
-  elsif board[index] == ("X" || "Y")
+  elsif board[index] == ("X" || "O")
     return true
   end
 end
