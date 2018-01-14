@@ -1,7 +1,7 @@
 def position_taken?(board, index)
-  if board.each != ("X" || "Y")
+  if board != ("X" || "Y")
     return false
-  else board.each == ("X" || "Y")
+  else board == ("X" || "Y")
     return true
   end
 end
